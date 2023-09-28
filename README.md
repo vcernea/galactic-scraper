@@ -60,13 +60,13 @@ scrappingElements: {
 The server will always answer with a JSON.
 
 ## Personal notes
-Initially, I created a basic PHP app for scraping, but i soon realized the content on the test website is dynamically generated. I decided to go with nodejs, because of the `puppeteer`.
+Initially, I created a basic PHP app for scraping, but I soon realized the content on the test website is dynamically generated. I decided to go with nodejs, because of the `puppeteer`.
 
-After setting an `express` server, I created scraper.js, that contains the basic functions needed for scrapping.
+After setting up an `express` server, I created scraper.js, which contains the basic functions needed for scrapping.
 
-My first thought about sentiment analysis was to find 2 dictionaries with positive and negative words, then to find which of them are used the most. However, I accidentally ran into `sentiment` package and realized I don't have to reinvent the wheel.
+My first thought about sentiment analysis was to find two dictionaries with positive and negative words, then find which of them are used the most. However, I accidentally ran into `sentiment` package and realized I don't have to reinvent the wheel.
 
-The word counter is supposed to work on anything but `.classes`, because they might also change. Giving this criteria, I decided to rely on the html structure, based on the fact that every post has an image, a title, a subtitle and the content area. The cons of this solution is that it works (obviously) only on the posts from the test website.
+The word counter is supposed to work on anything but `.classes`, because they might also change. Given these criteria, I decided to rely on the html structure, based on the fact that every post has an image, a title, a subtitle and the content area. The con of this solution is that it works (obviously) only on the posts from the test website.
 
 I have never worked with vue.js before, thank you for the challenge.
 
