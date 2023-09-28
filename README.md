@@ -12,7 +12,7 @@ Follow these steps to set up and run the Galactic Scraper application locally.
 
 ### Installation
 
-> The application is also available live at http://64.226.77.29
+> The application is also available live at http://64.226.77.29 (I know it's slow, but it's not dead)
 
 1. Clone the repository to your local machine:
 
@@ -36,7 +36,7 @@ Follow these steps to set up and run the Galactic Scraper application locally.
 	npm run serve
 	```
 5. Access the application:
-	[localhost:8080/](localhost:8080/)
+	[http://localhost:8080/](http://localhost:8080/)
 
 ### Endpoints
 -   `POST /scrape`: Scrapes content (text, links, images, dates) from a given URL.
