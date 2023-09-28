@@ -17,7 +17,7 @@ Follow these steps to set up and run the Galactic Scraper application locally.
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/vcerbea/galactic-scraper.git
+   git clone https://github.com/vcernea/galactic-scraper.git
    ```
 2. Navigate to the project directory:
    ```bash
